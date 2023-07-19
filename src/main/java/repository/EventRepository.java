@@ -1,9 +1,9 @@
-package Repository;
+package repository;
 
-import entity.Course;
+import entity.Event;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CourseRepository extends JpaRepository<Course, Long> {
+public interface EventRepository extends JpaRepository<Event, Long> {
 }
