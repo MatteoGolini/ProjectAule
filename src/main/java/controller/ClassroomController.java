@@ -1,10 +1,10 @@
-/*
 package controller;
 
 import entity.Classroom;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import service.ClassroomService;
 
 import java.util.List;
 
@@ -44,5 +44,3 @@ public class ClassroomController {
 
 
 }
-
- */
